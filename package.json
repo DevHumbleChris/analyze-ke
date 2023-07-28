@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "analyze-ke",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -16,5 +16,23 @@
   },
   "dependencies": {
     "nuxt-icon": "^0.4.2"
-  }
+  },
+  "description": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevHumbleChris/analyze-ke.git"
+  },
+  "keywords": [
+    "dashboard",
+    "nuxt3",
+    "tailwindcss"
+  ],
+  "author": "AmChrisKE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevHumbleChris/analyze-ke/issues"
+  },
+  "homepage": "https://github.com/DevHumbleChris/analyze-ke#readme"
 }
