@@ -4,7 +4,7 @@ useHead({
     lang: 'en',
   },
   meta: [
-    { property: 'og:title', content: `Analyze-KE` },
+    { property: 'og:title', content: `Analyze-KE - Task Management Dashboard` },
     { name: 'description', content: 'Analyze-KE is a Task Management Dashboard built with Nuxt 3 and TailwindCSS.' },
     { property: 'og:description', content: 'Analyze-KE is a Task Management Dashboard built with Nuxt 3 and TailwindCSS.' },
     { property: 'og:url', content: 'https://analyze-ke.vercel.app/' },
@@ -12,7 +12,7 @@ useHead({
     { name: 'twitter:description', content: 'Analyze-KE is a Task Management Dashboard built with Nuxt 3 and TailwindCSS.' },
     { name: 'twitter:site', content: 'https://analyze-ke.vercel.app/' }
   ],
-  title: `Hounter - House Hunter`,
+  title: `Analyze-KE - Task Management Dashboard`,
 })
 </script>
 
