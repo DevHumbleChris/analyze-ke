@@ -17,7 +17,10 @@ useHead({
 </script>
 
 <template>
-  <main class="max-w-9xl font-fontFamily">
-    <slot/>
+  <main class="max-w-9xl font-fontFamily flex">
+    <Sidebar />
+    <div class="w-full">
+      <slot/>
+    </div>
   </main>
 </template>
