@@ -214,7 +214,7 @@
             </div>
           </div>
         </div>
-        <div class="border border-[#EAEAEA] px-5 py-6 rounded-xl space-y-5">
+        <div class="border border-[#EAEAEA] px-5 py-6 rounded-xl space-y-4">
           <div class="space-y-4">
             <div class="flex items-center justify-between">
               <p class="font-semibold text-xl">Productivity</p>
@@ -234,38 +234,38 @@
               <div class="test-sm flex text-[#757575] justify-between items-center">
                 <div class="relative">
                   <p>Mon</p>
-                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-32 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
+                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-28 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
                 </div>
                 <div class="relative">
                   <p>Tue</p>
-                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-32 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
+                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-28 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
                 </div>
                 <div class="relative">
                   <p>Wed</p>
-                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-32 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
+                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-28 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
                 </div>
                 <div class="relative">
                   <p>Thur</p>
-                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-32 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
+                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-28 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
                 </div>
                 <div class="relative">
                   <p>Fri</p>
-                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-32 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
+                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-28 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
                 </div>
                 <div class="relative">
                   <p>Sat</p>
-                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-32 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
+                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-28 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
                 </div>
                 <div class="relative">
                   <p>Sun</p>
-                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-32 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
+                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-28 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
                 </div>
               </div>
               <div class="space-y-4 my-5">
                 <svg width="260" height="20" viewBox="0 0 260 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect width="260" height="20" rx="5" fill="#A85CF9" />
                 </svg>
-                <svg class="ml-[10rem]" width="251" height="20" viewBox="0 0 251 20" fill="none"
+                <svg class="ml-[9rem]" width="251" height="20" viewBox="0 0 251 20" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <rect width="251" height="20" rx="5" fill="#5534A5" />
                 </svg>
@@ -273,6 +273,20 @@
                   xmlns="http://www.w3.org/2000/svg">
                   <rect width="235" height="20" rx="5" fill="#4B7BE5" />
                 </svg>
+              </div>
+              <div class="space-x-3 flex items-center justify-center">
+                <div class="flex items-center space-x-3">
+                  <div class="w-4 h-4 rounded-full bg-[#4B7BE5]"></div>
+                  <p class="text-sm text-[#757575]">Research </p>
+                </div>
+                <div class="flex items-center space-x-3">
+                  <div class="w-4 h-4 rounded-full bg-[#A85CF9]"></div>
+                  <p class="text-sm text-[#757575]">Design </p>
+                </div>
+                <div class="flex items-center space-x-3">
+                  <div class="w-4 h-4 rounded-full bg-[#5534A5]"></div>
+                  <p class="text-sm text-[#757575]">Animation</p>
+                </div>
               </div>
             </div>
           </div>
