@@ -1,8 +1,8 @@
 <template>
   <section class="p-8 space-y-6">
-    <div class="flex items-center justify-between">
+    <div class="flex flex-col space-y-2 sm:space-y-0 sm:flex-row sm:items-center justify-between">
       <h1 class="text-3xl text-[#130F26] font-semibold">Analytics</h1>
-      <div class="flex items-center space-x-9">
+      <div class="flex justify-between items-center sm:space-x-9">
         <div class="flex items-center space-x-2">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -11,20 +11,18 @@
           </svg>
           <p>Monday, 4th September</p>
         </div>
-        <div class="p-2 rounded-full bg-[#F1EEF6]">
-          <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-              d="M13.9639 2.10453C13.3796 1.94278 12.7652 1.85662 12.1324 1.85662C8.63793 1.85662 5.70232 4.48412 5.31642 7.95717L5.06431 10.2262C4.95506 11.2094 4.63504 12.1575 4.12606 13.0058L3.54732 13.9703L3.53302 13.9942L3.53301 13.9942C3.38857 14.2349 3.25744 14.4534 3.15887 14.6374C3.0602 14.8216 2.94047 15.0665 2.88046 15.3499C2.61604 16.599 3.32395 17.8493 4.53108 18.2652C4.80501 18.3596 5.07659 18.3829 5.28529 18.3931C5.49376 18.4032 5.7486 18.4032 6.02931 18.4032H6.05715H18.2076H18.2354C18.5161 18.4032 18.7709 18.4032 18.9794 18.3931C19.1881 18.3829 19.4597 18.3596 19.7336 18.2652C20.9408 17.8493 21.6487 16.599 21.3842 15.3499C21.3242 15.0665 21.2045 14.8216 21.1058 14.6374C21.0073 14.4534 20.8761 14.2349 20.7317 13.9942L20.7317 13.9941L20.7174 13.9703L20.1386 13.0058C19.8993 12.6068 19.7017 12.1857 19.5481 11.7493C19.0972 11.8619 18.6253 11.9217 18.1395 11.9217C17.7216 11.9217 17.314 11.8774 16.9212 11.7934C17.1464 12.6755 17.4989 13.5225 17.9697 14.3071L18.5484 15.2717C18.7118 15.544 18.8104 15.7089 18.8762 15.8319C18.8827 15.844 18.8884 15.8549 18.8934 15.8646C18.8825 15.8653 18.8703 15.866 18.8566 15.8666C18.7172 15.8734 18.5251 15.8738 18.2076 15.8738H6.05715C5.7396 15.8738 5.54748 15.8734 5.40814 15.8666C5.39443 15.866 5.38218 15.8653 5.37129 15.8646C5.37629 15.8549 5.38199 15.844 5.38847 15.8319C5.45435 15.7089 5.55289 15.544 5.71627 15.2717L6.29501 14.3071C6.99114 13.1469 7.42883 11.8502 7.57825 10.5055L7.83036 8.2365C8.07393 6.04442 9.92679 4.38603 12.1324 4.38603C12.2904 4.38603 12.4466 4.39455 12.6005 4.41116C12.8712 3.53546 13.3438 2.74844 13.9639 2.10453ZM17.3629 4.2788C16.6427 4.58211 16.137 5.29456 16.137 6.1251C16.137 7.23103 17.0336 8.12755 18.1395 8.12755C18.4273 8.12755 18.701 8.06683 18.9483 7.95749L18.9483 7.95717C18.7924 6.5538 18.2201 5.28849 17.3629 4.2788Z"
-              fill="#A85CF9" />
-            <path
-              d="M9.23098 17.8039C9.40212 18.7619 9.77921 19.6085 10.3038 20.2123C10.8284 20.816 11.4711 21.1433 12.1323 21.1433C12.7935 21.1433 13.4363 20.816 13.9608 20.2123C14.4854 19.6085 14.8625 18.7619 15.0336 17.8039"
-              stroke="#A85CF9" stroke-width="2.52941" stroke-linecap="round" />
-            <circle cx="18.1399" cy="6.12501" r="2.6348" fill="#A85CF9" stroke="#A85CF9" stroke-width="1.26471" />
-          </svg>
-        </div>
+        <svg class="p-2 rounded-full bg-[#F1EEF6] w-10 h-auto" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M13.9639 2.10453C13.3796 1.94278 12.7652 1.85662 12.1324 1.85662C8.63793 1.85662 5.70232 4.48412 5.31642 7.95717L5.06431 10.2262C4.95506 11.2094 4.63504 12.1575 4.12606 13.0058L3.54732 13.9703L3.53302 13.9942L3.53301 13.9942C3.38857 14.2349 3.25744 14.4534 3.15887 14.6374C3.0602 14.8216 2.94047 15.0665 2.88046 15.3499C2.61604 16.599 3.32395 17.8493 4.53108 18.2652C4.80501 18.3596 5.07659 18.3829 5.28529 18.3931C5.49376 18.4032 5.7486 18.4032 6.02931 18.4032H6.05715H18.2076H18.2354C18.5161 18.4032 18.7709 18.4032 18.9794 18.3931C19.1881 18.3829 19.4597 18.3596 19.7336 18.2652C20.9408 17.8493 21.6487 16.599 21.3842 15.3499C21.3242 15.0665 21.2045 14.8216 21.1058 14.6374C21.0073 14.4534 20.8761 14.2349 20.7317 13.9942L20.7317 13.9941L20.7174 13.9703L20.1386 13.0058C19.8993 12.6068 19.7017 12.1857 19.5481 11.7493C19.0972 11.8619 18.6253 11.9217 18.1395 11.9217C17.7216 11.9217 17.314 11.8774 16.9212 11.7934C17.1464 12.6755 17.4989 13.5225 17.9697 14.3071L18.5484 15.2717C18.7118 15.544 18.8104 15.7089 18.8762 15.8319C18.8827 15.844 18.8884 15.8549 18.8934 15.8646C18.8825 15.8653 18.8703 15.866 18.8566 15.8666C18.7172 15.8734 18.5251 15.8738 18.2076 15.8738H6.05715C5.7396 15.8738 5.54748 15.8734 5.40814 15.8666C5.39443 15.866 5.38218 15.8653 5.37129 15.8646C5.37629 15.8549 5.38199 15.844 5.38847 15.8319C5.45435 15.7089 5.55289 15.544 5.71627 15.2717L6.29501 14.3071C6.99114 13.1469 7.42883 11.8502 7.57825 10.5055L7.83036 8.2365C8.07393 6.04442 9.92679 4.38603 12.1324 4.38603C12.2904 4.38603 12.4466 4.39455 12.6005 4.41116C12.8712 3.53546 13.3438 2.74844 13.9639 2.10453ZM17.3629 4.2788C16.6427 4.58211 16.137 5.29456 16.137 6.1251C16.137 7.23103 17.0336 8.12755 18.1395 8.12755C18.4273 8.12755 18.701 8.06683 18.9483 7.95749L18.9483 7.95717C18.7924 6.5538 18.2201 5.28849 17.3629 4.2788Z"
+            fill="#A85CF9" />
+          <path
+            d="M9.23098 17.8039C9.40212 18.7619 9.77921 19.6085 10.3038 20.2123C10.8284 20.816 11.4711 21.1433 12.1323 21.1433C12.7935 21.1433 13.4363 20.816 13.9608 20.2123C14.4854 19.6085 14.8625 18.7619 15.0336 17.8039"
+            stroke="#A85CF9" stroke-width="2.52941" stroke-linecap="round" />
+          <circle cx="18.1399" cy="6.12501" r="2.6348" fill="#A85CF9" stroke="#A85CF9" stroke-width="1.26471" />
+        </svg>
       </div>
     </div>
-    <div class="grid grid-cols-6 gap-5">
+    <div class="grid grid-cols-1 sm:grid-cols-6 gap-5">
       <div class="col-span-2 space-y-5">
         <div class="border border-[#EAEAEA] px-5 py-6 rounded-xl space-y-5">
           <div class="flex items-center space-x-3">
@@ -78,7 +76,7 @@
             </div>
           </div>
         </div>
-        <div class="border border-[#EAEAEA] px-5 py-6 rounded-xl space-y-5">
+        <div class="border border-[#EAEAEA] px-5 py-6 rounded-xl space-y-5 flex flex-col items-center">
           <p class="font-semibold">Your Interest</p>
           <svg width="181" height="181" viewBox="0 0 181 181" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -112,7 +110,7 @@
           </div>
         </div>
       </div>
-      <div class="col-span-4 space-y-3">
+      <div class="w-full sm:col-span-4 space-y-3">
         <div class="border border-[#EAEAEA] px-5 py-6 rounded-xl space-y-5">
           <div class="space-y-4">
             <div class="flex items-center justify-between">
@@ -122,88 +120,90 @@
                 <option value="daily">daily</option>
               </select>
             </div>
-            <div class="flex p-x-20 items-center justify-between w-full">
-              <div class="test-sm text-[#757575] space-y-[1.98rem] items-center">
-                <p>05</p>
-                <p>04</p>
-                <p>03</p>
-                <p>02</p>
-                <p>01</p>
-                <p>0</p>
+            <div class="flex flex-col sm:flex-row sm:items-center space-y-3 sm:space-x-3">
+              <div class="flex p-x-20 items-center justify-between w-full">
+                <div class="test-sm text-[#757575] space-y-[1.98rem] items-center">
+                  <p>05</p>
+                  <p>04</p>
+                  <p>03</p>
+                  <p>02</p>
+                  <p>01</p>
+                  <p>0</p>
+                </div>
+                <div class="flex space-x-4 sm:space-x-7">
+                  <div class="space-y-1">
+                    <svg class="" width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
+                      <rect x="1" y="191" width="16" height="85" rx="6" fill="#5534A5" stroke="white" stroke-width="2" />
+                    </svg>
+                    <p class="test-sm text-[#757575]">M</p>
+                  </div>
+                  <div class="space-y-1">
+                    <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
+                      <rect x="1" y="63" width="16" height="213" rx="6" fill="#A85CF9" stroke="white" stroke-width="2" />
+                    </svg>
+                    <p class="test-sm text-[#757575]">T</p>
+                  </div>
+                  <div class="space-y-1">
+                    <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
+                      <rect x="1" y="107" width="16" height="169" rx="8" fill="#5534A5" stroke="white" stroke-width="2" />
+                    </svg>
+                    <p class="test-sm text-[#757575]">W</p>
+                  </div>
+                  <div class="space-y-1">
+                    <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
+                      <rect x="1" y="186" width="16" height="90" rx="6" fill="#5534A5" stroke="white" stroke-width="2" />
+                    </svg>
+                    <p class="test-sm text-[#757575]">T</p>
+                  </div>
+                  <div class="space-y-1">
+                    <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
+                      <rect x="1" y="137" width="16" height="139" rx="6" fill="#5534A5" stroke="white" stroke-width="2" />
+                    </svg>
+                    <p class="test-sm text-[#757575]">F</p>
+                  </div>
+                  <div class="space-y-1">
+                    <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
+                      <rect x="1" y="87" width="16" height="189" rx="6" fill="#5534A5" stroke="white" stroke-width="2" />
+                    </svg>
+                    <p class="test-sm text-[#757575]">S</p>
+                  </div>
+                  <div class="space-y-1">
+                    <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
+                      <rect x="1" y="186" width="16" height="90" rx="6" fill="#5534A5" stroke="white" stroke-width="2" />
+                    </svg>
+                    <p class="test-sm text-[#757575]">S</p>
+                  </div>
+                </div>
               </div>
-              <div class="flex space-x-7">
-                <div class="space-y-1">
-                  <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
-                    <rect x="1" y="191" width="16" height="85" rx="6" fill="#5534A5" stroke="white" stroke-width="2" />
-                  </svg>
-                  <p class="test-sm text-[#757575]">M</p>
-                </div>
-                <div class="space-y-1">
-                  <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
-                    <rect x="1" y="63" width="16" height="213" rx="6" fill="#A85CF9" stroke="white" stroke-width="2" />
-                  </svg>
-                  <p class="test-sm text-[#757575]">T</p>
-                </div>
-                <div class="space-y-1">
-                  <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
-                    <rect x="1" y="107" width="16" height="169" rx="8" fill="#5534A5" stroke="white" stroke-width="2" />
-                  </svg>
-                  <p class="test-sm text-[#757575]">W</p>
-                </div>
-                <div class="space-y-1">
-                  <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
-                    <rect x="1" y="186" width="16" height="90" rx="6" fill="#5534A5" stroke="white" stroke-width="2" />
-                  </svg>
-                  <p class="test-sm text-[#757575]">T</p>
-                </div>
-                <div class="space-y-1">
-                  <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
-                    <rect x="1" y="137" width="16" height="139" rx="6" fill="#5534A5" stroke="white" stroke-width="2" />
-                  </svg>
-                  <p class="test-sm text-[#757575]">F</p>
-                </div>
-                <div class="space-y-1">
-                  <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
-                    <rect x="1" y="87" width="16" height="189" rx="6" fill="#5534A5" stroke="white" stroke-width="2" />
-                  </svg>
-                  <p class="test-sm text-[#757575]">S</p>
-                </div>
-                <div class="space-y-1">
-                  <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
-                    <rect x="1" y="186" width="16" height="90" rx="6" fill="#5534A5" stroke="white" stroke-width="2" />
-                  </svg>
-                  <p class="test-sm text-[#757575]">S</p>
-                </div>
-              </div>
-              <div class="space-y-6">
-                <div class="space-y-2">
+              <div class="space-y-6 w-full">
+                <div class="sm:space-y-2 flex flex-col">
                   <p class="text-xs text-[#757575]">Time spent</p>
-                  <div class="flex items-center space-x-3 space">
+                  <div class="flex items-center sm:space-x-3 justify-between">
                     <p class="text-xl font-semibold">18h</p>
                     <div class="bg-[#6FDFDF] px-2 py-1 rounded-xl">
                       120%
                     </div>
                   </div>
                 </div>
-                <div class="space-y-2">
+                <div class="sm:space-y-2 flex flex-col">
                   <p class="text-xs text-[#757575]">Lesson Learnt</p>
-                  <div class="flex items-center space-x-3 space">
+                  <div class="flex items-center sm:space-x-3 justify-between">
                     <p class="text-xl font-semibold">15h</p>
                     <div class="bg-[#6FDFDF] px-2 py-1 rounded-xl">
                       120%
                     </div>
                   </div>
                 </div>
-                <div class="space-y-2">
+                <div class="sm:space-y-2 flex flex-col">
                   <p class="text-xs text-[#757575]">Exams Passed</p>
-                  <div class="flex items-center space-x-3 space">
+                  <div class="flex items-center sm:space-x-3 justify-between">
                     <p class="text-xl font-semibold">2h</p>
                     <div class="bg-[#6FDFDF] px-2 py-1 rounded-xl">
                       100%
@@ -262,14 +262,14 @@
                 </div>
               </div>
               <div class="space-y-4 my-5">
-                <svg width="260" height="20" viewBox="0 0 260 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-36 sm:w-64" width="260" height="20" viewBox="0 0 260 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect width="260" height="20" rx="5" fill="#A85CF9" />
                 </svg>
-                <svg class="ml-[9rem]" width="251" height="20" viewBox="0 0 251 20" fill="none"
+                <svg class="ml-[5rem] sm:ml-[8.8rem] w-36 sm:w-64" width="251" height="20" viewBox="0 0 251 20" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <rect width="251" height="20" rx="5" fill="#5534A5" />
                 </svg>
-                <svg class="ml-[4rem]" width="235" height="20" viewBox="0 0 235 20" fill="none"
+                <svg class="ml-[2.3rem] sm:ml-[4rem] w-36 sm:w-64" width="235" height="20" viewBox="0 0 235 20" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <rect width="235" height="20" rx="5" fill="#4B7BE5" />
                 </svg>

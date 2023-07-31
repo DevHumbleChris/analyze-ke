@@ -1,5 +1,5 @@
 <template>
-    <div class="sticky w-[24rem] h-screen bg-[#F1EEF6] rounded-2xl p-5 space-y-3">
+    <div class="sticky w-[24rem] h-screen bg-[#F1EEF6] rounded-2xl p-5 space-y-3 mb-12 sm:mb-0">
         <div class="bg-white flex items-center space-x-2 p-3 rounded-2xl">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -96,7 +96,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-white p-3 text-sm rounded-lg space-y-3">
+        <div class="bg-white p-3 text-sm rounded-lg space-y-3 mb-4">
             <p class="font-bold text-md">Assignments <span class="text-[#757575] text-xs">(12)</span></p>
             <div class="flex items-center space-x-2">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">

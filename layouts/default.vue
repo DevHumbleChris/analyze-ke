@@ -17,7 +17,7 @@ useHead({
 </script>
 
 <template>
-  <main class="font-jakarta flex">
+  <main class="font-jakarta flex flex-col sm:flex-row">
     <Sidebar />
     <div class="w-full">
       <slot/>

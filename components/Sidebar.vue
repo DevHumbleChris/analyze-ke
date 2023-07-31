@@ -1,5 +1,5 @@
 <template>
-  <aside class="sticky w-[20rem] h-screen border-r border-[#EAEAEA]">
+  <aside class="sticky w-[20rem] h-screen border-r border-[#EAEAEA] hidden sm:block">
     <div class="p-4 mt-4 mb-6">
       <Logo />
     </div>
