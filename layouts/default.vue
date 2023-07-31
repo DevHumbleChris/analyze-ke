@@ -17,10 +17,11 @@ useHead({
 </script>
 
 <template>
-  <main class="max-w-9xl font-fontFamily flex">
+  <main class="font-jakarta flex">
     <Sidebar />
     <div class="w-full">
       <slot/>
     </div>
+    <RightContent />
   </main>
 </template>

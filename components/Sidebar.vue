@@ -1,9 +1,9 @@
 <template>
-  <aside class="sticky w-[18rem] h-screen border-r border-[#EAEAEA]">
+  <aside class="sticky w-[20rem] h-screen border-r border-[#EAEAEA]">
     <div class="p-4 mt-4 mb-6">
       <Logo />
     </div>
-    <ul class="space-y-8">
+    <ul class="space-y-8 ">
       <li class="group">
         <NuxtLink to="#" class="block flex items-center space-x-5">
           <svg
