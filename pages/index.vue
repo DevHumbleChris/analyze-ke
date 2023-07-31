@@ -112,7 +112,7 @@
           </div>
         </div>
       </div>
-      <div class="col-span-4">
+      <div class="col-span-4 space-y-3">
         <div class="border border-[#EAEAEA] px-5 py-6 rounded-xl space-y-5">
           <div class="space-y-4">
             <div class="flex items-center justify-between">
@@ -149,42 +149,42 @@
                 <div class="space-y-1">
                   <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
-                    <rect x="1" y="63" width="16" height="213" rx="6" fill="#A85CF9" stroke="white" stroke-width="2" />
+                    <rect x="1" y="107" width="16" height="169" rx="8" fill="#5534A5" stroke="white" stroke-width="2" />
                   </svg>
                   <p class="test-sm text-[#757575]">W</p>
                 </div>
                 <div class="space-y-1">
                   <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
-                    <rect x="1" y="63" width="16" height="213" rx="6" fill="#A85CF9" stroke="white" stroke-width="2" />
+                    <rect x="1" y="186" width="16" height="90" rx="6" fill="#5534A5" stroke="white" stroke-width="2" />
                   </svg>
                   <p class="test-sm text-[#757575]">T</p>
                 </div>
                 <div class="space-y-1">
                   <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
-                    <rect x="1" y="63" width="16" height="213" rx="6" fill="#A85CF9" stroke="white" stroke-width="2" />
+                    <rect x="1" y="137" width="16" height="139" rx="6" fill="#5534A5" stroke="white" stroke-width="2" />
                   </svg>
                   <p class="test-sm text-[#757575]">F</p>
                 </div>
                 <div class="space-y-1">
                   <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
-                    <rect x="1" y="63" width="16" height="213" rx="6" fill="#A85CF9" stroke="white" stroke-width="2" />
+                    <rect x="1" y="87" width="16" height="189" rx="6" fill="#5534A5" stroke="white" stroke-width="2" />
                   </svg>
                   <p class="test-sm text-[#757575]">S</p>
                 </div>
                 <div class="space-y-1">
                   <svg width="18" height="277" viewBox="0 0 18 277" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="2" width="14" height="275" rx="5" fill="#DDD6ED" />
-                    <rect x="1" y="63" width="16" height="213" rx="6" fill="#A85CF9" stroke="white" stroke-width="2" />
+                    <rect x="1" y="186" width="16" height="90" rx="6" fill="#5534A5" stroke="white" stroke-width="2" />
                   </svg>
                   <p class="test-sm text-[#757575]">S</p>
                 </div>
               </div>
-              <div>
+              <div class="space-y-6">
                 <div class="space-y-2">
-                  <p class="text-xs">Time spent</p>
+                  <p class="text-xs text-[#757575]">Time spent</p>
                   <div class="flex items-center space-x-3 space">
                     <p class="text-xl font-semibold">18h</p>
                     <div class="bg-[#6FDFDF] px-2 py-1 rounded-xl">
@@ -192,6 +192,87 @@
                     </div>
                   </div>
                 </div>
+                <div class="space-y-2">
+                  <p class="text-xs text-[#757575]">Lesson Learnt</p>
+                  <div class="flex items-center space-x-3 space">
+                    <p class="text-xl font-semibold">15h</p>
+                    <div class="bg-[#6FDFDF] px-2 py-1 rounded-xl">
+                      120%
+                    </div>
+                  </div>
+                </div>
+                <div class="space-y-2">
+                  <p class="text-xs text-[#757575]">Exams Passed</p>
+                  <div class="flex items-center space-x-3 space">
+                    <p class="text-xl font-semibold">2h</p>
+                    <div class="bg-[#6FDFDF] px-2 py-1 rounded-xl">
+                      100%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border border-[#EAEAEA] px-5 py-6 rounded-xl space-y-5">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <p class="font-semibold text-xl">Productivity</p>
+              <div class="flex items-center space-x-3">
+                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18.9997 3.48338C18.9997 1.56265 17.437 0 15.5163 0C14.6984 0 13.9312 0.284364 13.3089 0.803171C12.1416 0.28986 10.8547 0 9.49983 0C8.14499 0 6.85819 0.289723 5.69074 0.803171C5.06841 0.284329 4.30126 0 3.48335 0C1.56264 0 0 1.56265 0 3.48338C0 4.3013 0.284361 5.0685 0.803163 5.69079C0.289857 6.85808 0 8.14506 0 9.49991C0 14.7385 4.26139 19 9.5 19C14.7386 19 19 14.7386 19 9.49991C19 8.14506 18.7103 6.85825 18.1968 5.69079C18.7157 5.06846 19 4.3013 19 3.48338H18.9997ZM15.5163 1.26692C16.7383 1.26692 17.7327 2.26135 17.7327 3.48338C17.7327 3.81464 17.6544 4.13165 17.5149 4.42237C16.7631 3.24004 15.7598 2.23657 14.5773 1.48476C14.868 1.34525 15.185 1.26688 15.5163 1.26688L15.5163 1.26692ZM1.26695 3.48338C1.26695 2.26135 2.26137 1.26692 3.48339 1.26692C3.81465 1.26692 4.13166 1.3453 4.42237 1.4848C3.24005 2.23657 2.23659 3.24004 1.48478 4.42241C1.34528 4.13169 1.26691 3.81465 1.26691 3.48342L1.26695 3.48338ZM9.50008 17.7329C4.96037 17.7329 1.26695 14.0393 1.26695 9.49966C1.26695 4.9599 4.96029 1.26645 9.50008 1.26645C14.0398 1.26645 17.7332 4.95952 17.7332 9.49966C17.7332 14.039 14.0402 17.7329 9.50008 17.7329Z"
+                    fill="black" />
+                  <path
+                    d="M10.7063 9.28143V6.86115C10.7063 6.56977 10.4363 6.33337 10.1032 6.33337C9.77016 6.33337 9.5 6.56964 9.5 6.86115V9.49997C9.5 9.6398 9.56348 9.77405 9.67687 9.87313L12.6926 12.5119C12.8105 12.6151 12.9647 12.6667 13.1191 12.6667C13.2733 12.6667 13.4277 12.6151 13.5455 12.5119C13.7811 12.3058 13.7811 11.9717 13.5455 11.7657L10.7063 9.28143Z"
+                    fill="black" />
+                </svg>
+                <p>6 hours 24 min</p>
+              </div>
+            </div>
+            <div>
+              <div class="test-sm flex text-[#757575] justify-between items-center">
+                <div class="relative">
+                  <p>Mon</p>
+                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-32 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
+                </div>
+                <div class="relative">
+                  <p>Tue</p>
+                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-32 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
+                </div>
+                <div class="relative">
+                  <p>Wed</p>
+                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-32 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
+                </div>
+                <div class="relative">
+                  <p>Thur</p>
+                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-32 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
+                </div>
+                <div class="relative">
+                  <p>Fri</p>
+                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-32 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
+                </div>
+                <div class="relative">
+                  <p>Sat</p>
+                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-32 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
+                </div>
+                <div class="relative">
+                  <p>Sun</p>
+                  <div class="h-[0.1rem] bg-gray-300 rotate-90 w-32 absolute top-[5.5rem] -z-10 -left-[3rem]"></div>
+                </div>
+              </div>
+              <div class="space-y-4 my-5">
+                <svg width="260" height="20" viewBox="0 0 260 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="260" height="20" rx="5" fill="#A85CF9" />
+                </svg>
+                <svg class="ml-[10rem]" width="251" height="20" viewBox="0 0 251 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <rect width="251" height="20" rx="5" fill="#5534A5" />
+                </svg>
+                <svg class="ml-[4rem]" width="235" height="20" viewBox="0 0 235 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <rect width="235" height="20" rx="5" fill="#4B7BE5" />
+                </svg>
               </div>
             </div>
           </div>
